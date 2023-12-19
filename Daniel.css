@@ -1,0 +1,255 @@
+.custom-button {
+    background-color: #0056b3;
+    color: white;
+}
+
+
+.navbar-nav  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.navbar-brand  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+  #myBtn:hover {
+    background-color: #555; 
+  }
+
+  body {
+    font-family: 'font-family:' 'Segoe UI', Tahoma, 'Geneva', Verdana, 'sans-serif';
+    font-style: bold;
+    background-color: #b4aaa4; 
+}
+  
+
+.container6 {
+    justify-content: right;
+}
+
+.navbar .btn {
+    margin-left: auto; 
+   
+}
+
+.grades-dropdown {
+    margin-top: 20px;
+}
+ 
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  .dropdown:hover .dropbtn {background-color: #0056b3;}
+
+ 
+#gradesDropdown {
+    background-color: #0056b3;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+#mumos {
+    text-shadow: 0 4px 10px grey;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-menu a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+
+#backToTop {
+    border: none;
+    outline: none;
+    background-color: transparent; 
+    cursor: pointer;
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+}
+
+#backToTop img {
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.custom-btn {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+    color: #dddFFFFF; 
+}
+
+.custom-btn:hover {
+    background-color: #004a9f; 
+    border-color: #004a9f;
+}
+
+    .jumbotron {
+        background: linear-gradient(to right, #e6e6e6, #f8f9fa, #e6e6e6);
+        box-shadow: 0 4px 10px black;
+        background-image: url(laptop-computer-brown-shelf-background-banner-3d-illustration_118047-11752.avif);
+        background-size: cover;
+    }
+    
+
+
+.jumbotron .display-4 {
+    font-size: 1.5rem; 
+}
+
+.jumbotron .lead {
+    font-size: 1rem; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #645444;
+    color: #645444;
+    text-align: center;
+  }
+  
+  #womp {
+    border-bottom: red, solid, 10px;
+  }
+
+  #jam {
+    box-shadow: 0 10px 20px black;
+  }
+
+  #mumos {
+    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fwhite-marble-background&psig=AOvVaw1XAtEi3N0kLebsYzEzyShm&ust=1702950757082000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPifjIrwl4MDFQAAAAAdAAAAABAD) no-repeat;
+  }
+
+  .container {
+  margin: 20px;
+  border: 1px solid #645444;
+  outline: 4px solid #645444;
+  outline-offset: 15px;
+  padding: 5%;
+}
+
+#opo {
+    color: #f1f1f1;
+}
+
+#gummo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: grey;
+  }
+
+#jc {
+    background-color:white;
+}
+
+.twitter-timeline {
+    border: 2px solid #1DA1F2; /* Twitter's brand color */
+    border-radius: 10px;
+    width: 400px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    margin: 20px;
+    overflow-y: scroll; /* Adds a scrollbar if the content overflows */
+}
+
+/* Optional: Style the scrollbar (for Webkit browsers) */
+.twitter-timeline::-webkit-scrollbar {
+    width: 5px;
+}
+
+.twitter-timeline::-webkit-scrollbar-thumb {
+    background: #1DA1F2;
+    border-radius: 10px;
+}
+
+
+
+
